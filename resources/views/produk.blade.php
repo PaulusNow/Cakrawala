@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('layouts.main')
+
+@section('container')
+
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/produk.css">
 
-  <!-- Font Awesome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-  <!-- Font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
-
-  <link rel="preload" href="font/GarnetCapitals-Bold.ttf" as="font" type="font/ttf" crossorigin>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <!-- End Font -->
-  <title>Cakrawala Trans - Produk</title>
-</head>
-<body>
-  <?php
-      include('navbar/navbar.php');
-    ?>
     {{-- Start Swiper 1 --}}
   <div class="text-view1">
     <h1>mobil lepas kunci / dengan driver</h1>
@@ -286,7 +265,6 @@
 
 {{-- End Swiper 2 --}}
 
-  <?php include('footer/footer.php')?>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-</body>
-</html>
+  <?= include('footer/footer.php') ?>
+  @endsection

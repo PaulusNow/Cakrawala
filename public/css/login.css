@@ -125,6 +125,12 @@ body {
   margin: 10px 0 3px 0;
  }
 
+ input[type=number]::-webkit-outer-spin-button,
+ input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ }
+
  input[type="submit"] {
   width: 73%;
   height: 45px;

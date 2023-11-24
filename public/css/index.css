@@ -84,9 +84,11 @@ img {
 }
 
 .card img{
+  margin: auto;
   background-color: #F6F6F6;
   margin-left: 1px;
-  width: 100%;
+  width: 99.5%;
+  align-items: center;
   height: auto;
 }
 

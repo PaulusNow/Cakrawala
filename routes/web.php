@@ -14,17 +14,32 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        "title" => "Beranda"
+    ]);
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "title" => "Tentang Kami"
+    ]);
 });
 Route::get('/login', function () {
-    return view('login');
+    return view('login', [
+        "title" => "Login"
+    ]);
 });
 Route::get('/produk', function () {
-    return view('produk');
+    return view('produk', [
+        "title" => "Produk"
+    ]);
 });
 Route::get('/register', function () {
-    return view('register');
+    return view('register', [
+        "title" => "Registrasi"
+    ]);
+});
+Route::get('/bantuan', function () {
+    return view('bantuan', [
+        "title" => "Pusat Bantuan"
+    ]);
 });
