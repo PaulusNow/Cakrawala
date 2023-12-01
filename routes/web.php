@@ -43,3 +43,8 @@ Route::get('/bantuan', function () {
         "title" => "Pusat Bantuan"
     ]);
 });
+Route::get('/pesan', function () {
+    return view('order', [
+        "title" => "Penyewaan"
+    ]);
+});

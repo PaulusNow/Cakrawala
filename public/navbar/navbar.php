@@ -11,7 +11,6 @@
           <li><a href="/about">Tentang Kami</a></li>
           <li><a href="/produk">Produk</a></li>
           <li><a href="/bantuan">Pusat Bantuan</a></li>
-          <li><a href="#" class="btn">Pemesanan</a></li>
           <li><a href="/login"><img src="asset/icon.png" alt="user"></a></li>
         </ul>
       </nav>

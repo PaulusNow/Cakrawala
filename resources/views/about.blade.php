@@ -14,5 +14,4 @@
   <img src="asset/visi.png" alt="misi">
 </div>
 
-<?= include('footer/footer.php') ?>
 @endsection

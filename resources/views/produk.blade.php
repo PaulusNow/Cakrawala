@@ -21,7 +21,7 @@
             <h3>Toyota Avanza</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
             <h3>Toyota Innova</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
             <h3>Toyota Calya</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@
             <h3>Suzuki Ertiga</h3>
             <br>
             <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-            <a href="#">Sewa Sekarang</a>
+            <a href="/pesan">Sewa Sekarang</a>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
           <h3>Toyota Avanza</h3>
           <br>
           <p>Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiece yang mampu memuat hingga 16 penumpang</p>
-          <a href="#">Sewa Sekarang</a>
+          <a href="/pesan">Sewa Sekarang</a>
         </div>
       </div>
     </div>
@@ -226,7 +226,7 @@
           <h3>Toyota Innova</h3>
           <br>
           <p>Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiece yang mampu memuat hingga 16 penumpang</p>
-          <a href="#">Sewa Sekarang</a>
+          <a href="/pesan">Sewa Sekarang</a>
         </div>
       </div>
     </div>
@@ -241,7 +241,7 @@
           <h3>Toyota Calya</h3>
           <br>
           <p>Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiece yang mampu memuat hingga 16 penumpang</p>
-          <a href="#">Sewa Sekarang</a>
+          <a href="/pesan">Sewa Sekarang</a>
         </div>
       </div>
     </div>
@@ -256,7 +256,7 @@
           <h3>Suzuki Ertiga</h3>
           <br>
           <p>Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiece yang mampu memuat hingga 16 penumpang</p>
-          <a href="#">Sewa Sekarang</a>
+          <a href="/pesan">Sewa Sekarang</a>
         </div>
       </div>
     </div>
@@ -266,5 +266,4 @@
 {{-- End Swiper 2 --}}
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-  <?= include('footer/footer.php') ?>
   @endsection

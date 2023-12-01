@@ -17,9 +17,9 @@
 
     <div class="footer-content">
       <h4>Service</h4>
-      <li><a href="#">RentCar Mobil</a></li>
-      <li><a href="#">RentCar Elf Hiace</a></li>
-      <li><a href="#">RentCar Bus</a></li>
+      <li><a href="/pesan">RentCar Mobil</a></li>
+      <li><a href="/pesan">RentCar Elf Hiace</a></li>
+      <li><a href="/pesan">RentCar Bus</a></li>
     </div>
 
     <div class="footer-content">
@@ -27,5 +27,16 @@
       <p>Konsultasikan jadwal perjalanan Terbaik Anda bersama Kami melalui kontak WhatsApp yang tersedia dan Kami siap membantu Anda 24 Jam</p>
     </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+ var listItems = document.querySelectorAll('li');
+ for (var i = 0; i < listItems.length; i++) {
+    var text = listItems[i].innerText;
+    if (text === "1") {
+      listItems[i].innerText = "";
+    }
+ }
+});
+</script>
 </body>
 </html>

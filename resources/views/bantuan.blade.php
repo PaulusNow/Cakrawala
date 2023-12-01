@@ -90,5 +90,5 @@ rel="stylesheet"
 
 <script src="js/bantuan.js"></script>
 
-<?=include('footer/footer.php')?>
+{{-- <?=include('footer/footer.php')?> --}}
 @endsection

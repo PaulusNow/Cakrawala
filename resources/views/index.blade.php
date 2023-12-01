@@ -32,20 +32,20 @@
     <img src="asset/mobil1.png" alt="...">
     <p>Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
     <div class="btnsewa1">  
-      <a href="#">Sewa Sekarang</a>
+      <a href="/pesan">Sewa Sekarang</a>
     </div>
   </div>
   <div class="c2">
     <img src="asset/mobil2.png" alt="...">
     <p>Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiace yang mampu memuat hingga 16 penumpang</p>
     <div class="btnsewa2">  
-      <a href="#">Sewa Sekarang</a>
+      <a href="/pesan">Sewa Sekarang</a>
     </div>
   </div>
 </div>
 
 <div class="btnarmada">
-  <a href="#">Lihat Semua Armada <img src="asset/arrow.png" alt=""></a>
+  <a href="/produk">Lihat Semua Armada <img src="asset/arrow.png" alt=""></a>
 </div>
 
 <div class="review">
@@ -99,5 +99,4 @@
   </div>
 </div>
 
-<?= include('footer/footer.php') ?>
 @endsection
