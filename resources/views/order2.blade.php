@@ -13,7 +13,7 @@
           <option value="">Test 3</option>
         </select>
         <label>Alamat Lengkap</label>
-        <input type="text" id="alamat" name="alamat" placeholder="Alamat" ><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
         <label>No Handphone</label>
         <input type="number" id="nohp" name="nohp" placeholder="No. Handphone" ><br>
         <label>Keterangan</label>
