@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Cakrawala Trans | {{ $title }}</title>
 
     <!-- Font Awesome-->
@@ -25,13 +26,12 @@
   </head>
   <body>
     <!-- Navbar -->
-    <?php
-    include('navbar/navbar.php')
-    ?>
+    @include('partials.navbar')
 
     <!-- End Navbar -->
+    
     @yield('container')
-
+    
     @php
     include('footer/footer.php')
     @endphp

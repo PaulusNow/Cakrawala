@@ -45,6 +45,14 @@ Route::get('/bantuan', function () {
 });
 Route::get('/pesan', function () {
     return view('order', [
-        "title" => "Penyewaan"
+        "title" => "Penyewaan",
+        "content" => "form pemesanan kendaraan lepas kunci/dengan driver"
     ]);
 });
+Route::get('/pesan-konfirmasi', function () {
+    return view('order2', [
+        "title" => "Konfirmasi",
+        "content" => "form pemesanan"
+    ]);
+});
+

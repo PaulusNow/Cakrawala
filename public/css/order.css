@@ -26,6 +26,13 @@
     height: 50px;
 }
 
+form label {
+    margin: 0 20rem 1rem 0;
+    padding: 5px;
+    text-align: start;
+    color: black;
+}
+
 .confirm {
     display: flex;
     justify-content: space-around;
@@ -119,10 +126,12 @@ input[type="submit"][value="Lanjutkan"] {
 }
 
 input[type="submit"] {
-    margin-top: 100px;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    margin: 100px 35rem 0 0;
     display: flex;
     justify-content: end;
-    width: 45%;
+    width: 85%;
     height: 55px;
     color: white;
     font-size: 25px;
