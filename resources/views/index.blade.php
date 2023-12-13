@@ -48,7 +48,7 @@
     <div class="card-body d-flex flex-column align-items-center">
       <h5 class="card-title">Toyota</h5>
       <p class="card-text">Mobil berjenis MPV yang diproduksi oleh Toyota yang dirancang untuk mampu mengangkut 7 orang penumpang</p>
-      <a href="#" class="btn btn-primary">Sewa Sekarang</a>
+      <a href="#" class="btn" style="background-color : #000ca6; color: white">Sewa Sekarang</a>
     </div>
   </div>
 
@@ -58,7 +58,7 @@
     <div class="card-body d-flex flex-column align-items-center">
       <h5 class="card-title">Toyota</h5>
       <p class="card-text">Mobil travel yang memiliki ruangan serta kenyamanan cukup, keleluasaan kabin Toyota Hiace yang mampu memuat hingga 16 penumpang</p>
-      <a href="#" class="btn btn-primary">Sewa Sekarang</a>
+      <a href="/pesan" class="btn" style="background-color : #000ca6; color: white">Sewa Sekarang</a>
     </div>
   </div>
 </div>
