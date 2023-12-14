@@ -53,7 +53,11 @@ Route::get('/pesan-konfirmasi', function () {
     ]);
 });
 
-Route::get('/login', [LoginController::class, 'index']);
+
+Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
+Route::post('/login', [LoginController::class, 'auth']);
+Route::post('logout', [LoginController::class, 'logout']);
+
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
 

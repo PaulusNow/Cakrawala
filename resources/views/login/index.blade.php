@@ -17,15 +17,26 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
       @endif 
+      @if(session()->has('loginError'))
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        {{ session('loginError') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      @endif 
       <h1>Halaman Login</h1>
-      <form method="post">
+      <form action="/login" method="post">
         @csrf
         <div class="form-floating">
-          <input type="email" class="form-control rounded-top" name="email" id="email" placeholder="Masukan Email" value="{{ old('email') }}">
+          <input type="email" class="form-control rounded-top @error('email') is-invalid @enderror" name="email" id="email" placeholder="Masukan Email" value="{{ old('email') }}" autofocus required>
           <label for="email">Email</label>
+          @error('email')
+            <div class="invalid-feedback">
+              {{ $message }}
+            </div>
+          @enderror
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control rounded-bottom" name="password" id="password" placeholder="Masukan Password" value="{{ old('password') }}">
+          <input type="password" class="form-control rounded-bottom" name="password" id="password" placeholder="Masukan Password" value="{{ old('password') }}" required>
           <label for="password">Kata Sandi</label>
         </div>
           <div class="forget mt-3">Lupa Sandi?</div>
