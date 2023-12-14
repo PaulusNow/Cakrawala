@@ -11,19 +11,24 @@
     <p>Mari bergabung bersama Kami untuk  <br> solusi Terbaik Perjalanan Anda!</p>
     <img src="asset/t_login.png" alt="">
     <div class="card-login">
+      @if(session()->has('success'))
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{ session('success') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      @endif 
       <h1>Halaman Login</h1>
       <form method="post">
-        <div class="txt_field">
-          <input type="email" name="email"required>
-          <span></span>
-          <label>Email</label>
+        @csrf
+        <div class="form-floating">
+          <input type="email" class="form-control rounded-top" name="email" id="email" placeholder="Masukan Email" value="{{ old('email') }}">
+          <label for="email">Email</label>
         </div>
-        <div class="txt_field">
-          <input type="password" name="pass" required>
-          <span></span>
-          <label>Kata Sandi</label>
+        <div class="form-floating">
+          <input type="password" class="form-control rounded-bottom" name="password" id="password" placeholder="Masukan Password" value="{{ old('password') }}">
+          <label for="password">Kata Sandi</label>
         </div>
-          <div class="forget">Lupa Sandi?</div>
+          <div class="forget mt-3">Lupa Sandi?</div>
           <button type="submit" class="btn btn-outline-dark" style="width: 73%">Masuk</button>
         </form>
         <div class="atau">
