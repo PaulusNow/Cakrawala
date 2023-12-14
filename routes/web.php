@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PesanController;
 use App\Http\Controllers\RegisterController;
 
 /*
@@ -40,24 +41,13 @@ Route::get('/bantuan', function () {
         "title" => "Pusat Bantuan"
     ]);
 });
-Route::get('/pesan', function () {
-    return view('order', [
-        "title" => "Penyewaan",
-        "content" => "form pemesanan kendaraan lepas kunci/dengan driver"
-    ]);
-});
-Route::get('/pesan-konfirmasi', function () {
-    return view('order2', [
-        "title" => "Konfirmasi",
-        "content" => "form pemesanan"
-    ]);
-});
+Route::get('/pesan', [PesanController::class, 'index'])->middleware('auth');
+Route::get('/pesan-konfirmasi', [PesanController::class, 'pesan'])->middleware('auth');
 
-
-Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'auth']);
 Route::post('logout', [LoginController::class, 'logout']);
 
-Route::get('/register', [RegisterController::class, 'index']);
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
 

@@ -48,7 +48,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Pesanan Saya <i class="bi bi-car-front-fill"></i></a></li>
             <li>
-              <form action="/logout" method="POST">
+              <form action="/logout" method="post">
                 @csrf
                 <button type="submit" class="dropdown-item">Logout</button>
               </form>

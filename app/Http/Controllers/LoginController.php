@@ -24,7 +24,7 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->intended('/pesan');
+            return redirect()->intended('/');
         }
 
         return back()->with('loginError', 'Login Gagal');
