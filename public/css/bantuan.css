@@ -1,13 +1,20 @@
-/* * {
+body {
+    font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-.cover img {
-    margin: auto;
+.cover {
+    position: absolute;
     width: 100%;
-    height: 1050px;
-    margin-top: -50px;
+    height: 800px;
+}
+.cover img{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 13%;
+    border-radius: 5px;
 }
 
 .bantuan1 {
@@ -15,10 +22,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 25%;
-    left: 30%;
-    font-size: 16px;
-    padding: 15px 50px;
+    top: 30%;
+    left: 40%;
+    padding: 10px 20px;
     background-color: #000ca6;
     color: #fff;
     width: fit-content;
@@ -26,23 +32,8 @@
     border-radius: 50px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
-
-.pusatbantuan {
-    position: absolute;
+.bantuan1 h1{
     font-size: 25px;
-    width: 1050px;
-    top: 90%;
-    color: #fff;
-}
-
-.pusatbantuan h1 {
-    margin: -5rem 4rem 1rem 13rem;
-    font-weight: 1000;
-}
-
-.pusatbantuan p {
-    font-size: 65px;
-    margin: 0 4rem 5rem 4rem;
 }
 
 .bantuan2 {
@@ -50,30 +41,51 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 40%;
-    left: 40%;
-    font-size: 16px;
-    padding: 15px 50px;
+    top: 42%;
+    left: 15%;
+    font-size: 10px;
+    padding: 10px 20px ;
+    margin: 0.5px;
     background-color: #000ca6;
     color: #fff;
     width: fit-content;
-    height: 50px;
+    height:50px;
     border-radius: 50px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.bantuan2 h1{
+    font-size: 25px;
+}
+
+.pusatbantuan {
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    top: 95%;
+    color: #fff;
+}
+
+.pusatbantuan h1 {
+    margin: -7rem 6rem 1rem 13rem;
+    font-weight: 1000;
+}
+
+.pusatbantuan p {
+    font-size: 40px;
+    margin-left: 130px;
 }
 
 .logowa {
     position: absolute;
-    top: 50%;
-    left: 85%;
+    top: 40%;
+    left: 75%;
 }
-
 .logowa h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: -50%;
+    margin-left: -50%;
     font-size: 25px;
     padding: 15px 50px;
     background-color: #fff;
@@ -85,8 +97,9 @@
 }
 
 .logowa img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    left: 60%;
 }
 
 .dropdown {
@@ -192,44 +205,40 @@ input:checked + label::before {
 }
 
 .coverpusat {
-    margin-top: 10rem;
+    margin-top: 48%;
     background-color: #3c8afa;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 #id1-prosedur {
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     margin: 0 2rem 0 2rem;
-    width: 80rem;
+    width: 50rem;
+    text-align: justify;
 }
 
 #id2-prosedur {
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     margin: 0 2rem 0 2rem;
-    width: 80rem;
+    width: 50rem;
+    text-align: justify;
 }
 
 #id3-prosedur {
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     margin: 0 2rem 0 2rem;
-    width: 80rem;
+    width: 50rem;
+    text-align: justify;
 }
 
 #id4-prosedur {
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     margin: 0 2rem 0 2rem;
-    width: 80rem;
-} */
-
-#gambar {
-    background-image: url("/asset/Group 46.png");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
+    width: 50rem;
+    text-align: justify;
 }
