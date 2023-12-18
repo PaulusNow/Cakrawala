@@ -226,10 +226,50 @@ input:checked + label::before {
     width: 80rem;
 } */
 
+:root {
+    --primary-color: #000ca6;
+}
+
 #gambar {
     background-image: url("/asset/Group 46.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+}
+
+.bundar {
+    width: 500px;
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.bundar h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.bundarwa {
+    background-color: #fff;
+}
+
+.position-absolute {
+    right: 150px;
+    bottom: 200px;
+}
+
+p.position-absolute {
+    font-size: 20px;
+    right: 120px;
+}
+
+.bundarwa p {
+    color: var(--primary-color);
+    font-weight: 700;
+    background-color: #fff;
+    width: 180px;
+    height: 35px;
+    border-radius: 50px;
 }

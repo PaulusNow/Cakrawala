@@ -4,11 +4,25 @@
     <link rel="stylesheet" href="/css/bantuan.css">
 
     <section id="gambar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 ps-5 position-absolute bottom-0 start-0 ">
+        <div class="row">
+            <div class="col-md-12 ps-5 position-absolute bottom-0 start-0 ">
+                <div class="container">
                     <h1 style="font-weight: 800; font-size:64px">Pusat Bantuan</h1>
                     <h4 style="font-weight: 700; font-size:32px" class="ms-5"><i>Layanan Konsumen</i></h4>
+                </div>
+            </div>
+            <div class="col-md-4 offset-2 my-5">
+                <div class="bundar">
+                    <h3 class="p-2">Halo, Saya siap membantu Anda</h3>
+                </div>
+                <div class="bundar offset-7 mt-5">
+                    <h3 class="p-2">Tanyakan tentang keluhan Anda</h3>
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <img src="asset/logo_wa.png" alt="..." class="position-absolute mb-5" height="114" width="105">
+                <div class="bundarwa">
+                    <p class="position-absolute p-1">+628999939774</p>
                 </div>
             </div>
         </div>
